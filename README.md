@@ -16,3 +16,8 @@ This is a personal study project and is **not actively maintained**. I may not r
 ## 🛠 Tech Stack / 使用技術
 - Python (Alexa Skills Kit SDK)
 - JMA JSON API (気象庁データ)
+
+- ## 🗣️ Interaction / 使い方
+- 「アレクサ、潮の高さ（invocation name）を開いて」
+- 「{地名} の潮を教えて」
+
