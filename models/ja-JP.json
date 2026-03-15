@@ -1,0 +1,96 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "潮の高さ",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "TideIntent",
+                    "slots": [
+                        {
+                            "name": "Place",
+                            "type": "AREA_NAME"
+                        }
+                    ],
+                    "samples": [
+                        "{Place} の潮",
+                        "{Place} を教えて",
+                        "{Place}",
+                        "潮を教えて"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "AREA_NAME",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "土佐清水",
+                                "synonyms": [
+                                    "清水",
+                                    "あしずり",
+                                    "足摺岬"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "宇和島",
+                                "synonyms": [
+                                    "宇和島港",
+                                    "愛媛の宇和島"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "足摺岬",
+                                "synonyms": [
+                                    "あしずりみさき"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "室戸岬",
+                                "synonyms": [
+                                    "むろとみさき",
+                                    "むろと"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "高知",
+                                "synonyms": [
+                                    "高知港",
+                                    "こうち"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
